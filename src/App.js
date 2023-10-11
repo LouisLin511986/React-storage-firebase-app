@@ -5,6 +5,7 @@ import FilesViewer from './components/FilesViewer';
 import SideIcons from './components/SideIcons';
 import { auth, provider } from './firebase';
 import { useState } from 'react';
+// npm install @material-ui/core @material-ui/icons --legacy-peer-deps
 
 function App() {
   const [user, setUser] = useState(null);
